@@ -83,8 +83,8 @@ if __name__ == "__main__":
             os.startfile(os.path.join(music_dir, songs[0]))
         elif 'good boy' in query:
             speak("raju is good boy")
-        elif 'fuck you raju' in query:
-            speak("fuck you raju one thousan time")
+        elif 'how are you raju' in query:
+            speak("how are you raju one thousan time")
         elif 'the time' in query:
             strtime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"sir the time is {strtime}")
